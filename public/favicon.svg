@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <path
+    d="M24 2L42 13V35L24 46L6 35V13L24 2Z"
+    fill="url(#a)"
+    stroke="url(#b)"
+    stroke-width="1.5"
+  />
+  <path
+    d="M30 16C26.6863 16 24 18.6863 24 22V26C24 29.3137 26.6863 32 30 32"
+    stroke="white"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+  <circle cx="18" cy="24" r="2.5" fill="white" />
+  <circle cx="24" cy="18" r="1.5" fill="white" opacity="0.7" />
+  <circle cx="24" cy="30" r="1.5" fill="white" opacity="0.7" />
+  <defs>
+    <linearGradient id="a" x1="6" y1="2" x2="42" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="b" x1="6" y1="2" x2="42" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" />
+      <stop offset="1" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -6,7 +7,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">Clexivo Labs</h3>
+            <Link
+              to="/"
+              className="inline-block rounded-lg bg-white p-4 mb-6 shadow-sm hover:opacity-95 transition-opacity"
+            >
+              <Logo />
+            </Link>
             <p className="text-gray-400 mb-4 max-w-md">
               An umbrella of innovative brands creating solutions for social media,
               finance, and real estate. Building the future, one product at a time.
